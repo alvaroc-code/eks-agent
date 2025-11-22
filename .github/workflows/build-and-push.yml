@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-prod:
-    uses: ${{ vars.WORKFLOWS_GH_USER }}/${{ vars.WORKFLOWS_REPO }}/.github/workflows/build-and-push.yml@main
+    uses: alvaroc-code/workflow-templates/.github/workflows/build-and-push.yml@main
     with:
       image_name: 'eks-agent'
       version_prefix: ''
