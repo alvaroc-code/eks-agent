@@ -16,4 +16,4 @@ jobs:
     with:
       image_name: 'eks-agent'
       version_prefix: ''
-      dockerfile_path: '../Dockerfile'
+      dockerfile_path: '../../Dockerfile'
