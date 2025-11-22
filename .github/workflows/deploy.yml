@@ -1,0 +1,13 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-prod:
+    uses: ${{ github.repository_owner }}/${{ vars.WORKFLOWS_REPO }}/.github/workflows/build-and-push.yml@main
+    with:
+      image_name: 'eks-agent'
+      version_prefix: ''
