@@ -8,4 +8,4 @@ echo -e "\n"
 
 sleep 2
 
-python agent_eks_diagnose.py "$@"
+python -u eks_agent.py "$@"
