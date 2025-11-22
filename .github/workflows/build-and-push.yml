@@ -14,6 +14,6 @@ jobs:
   build-prod:
     uses: alvaroc-code/workflow-templates/.github/workflows/build-and-push.yml@main
     with:
-      image_name: 'eks-agent'
+      image_name: '${{ github.repository_owner }}/eks-agent'
       version_prefix: ''
       dockerfile_path: './Dockerfile'
