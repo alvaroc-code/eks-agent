@@ -1,10 +1,10 @@
 # eks-agent
 
-![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 📝 Description
 
-The eks-agent is a Site Reliability Engineering (SRE)-inspired agent built upon the Strands Agents SDK, designed to automate and streamline operational tasks within your EKS (Elastic Kubernetes Service) environment. Developed in Python, this agent provides a flexible and extensible framework for implementing proactive monitoring, automated remediation, and intelligent orchestration of your Kubernetes workloads. Key features include customizable alert handling, automated scaling policies, and integration with popular monitoring tools. Empower your team to focus on innovation by leveraging the eks-agent to ensure the reliability and efficiency of your EKS deployments.
+The eks-agent is a Site Reliability Engineering (SRE)-like agent developed in Python and built upon the Strands Agents SDK, purposed to automate troubleshooting tasks within your EKS (Elastic Kubernetes Service) environment. The agent is "read-only" so it won't modify anything, it will only provide you with detected problems and "ready-to-paste" commands to fix & verify.
+Most likely not as good as Principal SRE Engineer, but definitely a help when you are paged as 03:00AM during your oncall shift :)
 
 ## 🚀 Quick Start
 #### 1. Clone the repo
@@ -95,6 +95,9 @@ Contributions are welcome! Here's how you can help:
 ---
 
 
-
 ✨ This README was generated with readmebuddy.com and readme.so
+
+
+---
+
 ![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white) [![ghcr.io](https://img.shields.io/badge/ghcr.io-eks--agent-blue?logo=docker)](https://github.com/alvaroc-code/eks-agent/pkgs/container/eks-agent) ![License](https://img.shields.io/badge/license-MIT-green)
